@@ -1,0 +1,140 @@
+.container{
+    height: 400px;
+    width: 820px;
+    border: 1px solid;
+    background-color: rgba(41, 39, 39, 0.767);
+    margin-left: 300px;
+    display: flex;
+}
+.first_box{
+    height: 90%;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid;
+    text-align: center;
+    font-style: italic;
+    background-color:#6CACE4
+}
+.second_box{
+    height: 90%;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid;
+    font-style: italic;
+    background-color:#FEDD00;
+    text-align: center;
+}
+.third_box{
+    height: 90%;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid;
+    font-style: italic;
+    background-color:#DA291C;
+    text-align: center;
+}
+h2{
+    margin-top: -28px;
+    text-transform: uppercase;
+    color:white;
+}
+p{
+    color: white;
+    font-size: 400%;
+    font-weight: 900;
+    text-shadow:   1px -1px 0 #767676, 
+}
+.neymar{
+    color: #fcfdfc;
+    text-shadow: 1px 4px 3px #171616,
+    4px 8px 3px #171616e6,
+    7px 12px 3px rgba(23, 22, 22, 0.853),
+    10px 16px 3px rgba(23, 22, 22, 0.771),
+    13px 20px 3px rgba(23, 22, 22, 0.723),
+    16px 24px 3px rgba(23, 22, 22, 0.623),
+    19px 28px 3px rgba(23, 22, 22, 0.476),
+    22px 32px 3px rgba(23, 22, 22, 0.363),
+    25px 36px 3px rgba(23, 22, 22, 0.267),
+    28px 40px 3px rgba(23, 22, 22, 0.195);
+}
+.ronaldo{
+    color: #f8f6f6;
+    text-shadow: 1px 4px 3px #171616,
+    4px 8px 3px #171616e6,
+    7px 12px 3px rgba(23, 22, 22, 0.853),
+    10px 16px 3px rgba(23, 22, 22, 0.771),
+    13px 20px 3px rgba(23, 22, 22, 0.723),
+    16px 24px 3px rgba(23, 22, 22, 0.623),
+    19px 28px 3px rgba(23, 22, 22, 0.476),
+    22px 32px 3px rgba(23, 22, 22, 0.363),
+    25px 36px 3px rgba(23, 22, 22, 0.267),
+    28px 40px 3px rgba(23, 22, 22, 0.195);
+}
+.messi{
+    color:#FFFFFF;
+    text-shadow: 1px 4px 3px #171616,
+    4px 8px 3px #171616e6,
+    7px 12px 3px rgba(23, 22, 22, 0.853),
+    10px 16px 3px rgba(23, 22, 22, 0.771),
+    13px 20px 3px rgba(23, 22, 22, 0.723),
+    16px 24px 3px rgba(23, 22, 22, 0.623),
+    19px 28px 3px rgba(23, 22, 22, 0.476),
+    22px 32px 3px rgba(23, 22, 22, 0.363),
+    25px 36px 3px rgba(23, 22, 22, 0.267),
+    28px 40px 3px rgba(23, 22, 22, 0.195);
+}
+#ronaldo{
+    font-size: xx-large;
+}
+#neymar{
+    color: #009739;
+    font-size: xx-large;
+}
+#messi{
+    font-size: xx-large;
+}
+#body{
+    margin-left: 70px;
+    background-image: url(./football.jpg);
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    width: 1300px;
+    height: 540px;
+    margin-left: 70px; 
+}
+body{
+    background-color: #171616bd;
+}
+.first_box:hover .box1{
+    display: none;
+}
+.second_box:hover .box2{
+    display: none;
+}
+.third_box:hover .box3{
+    display: none;
+}
+.first_box:hover .messi{
+    display: none;
+}
+.second_box:hover .neymar{
+    display: none;
+}
+.third_box:hover .ronaldo{
+    display: none;
+}
+.first_box:hover {
+    background-image: url(./messi.jpg);
+    background-size: cover;
+}
+.second_box:hover{
+    background-image: url(./neyscrn.png);
+    background-size: cover;
+}
+.third_box:hover{
+    background-image: url(./ronscrn.png);
+    background-size: cover;
+}
